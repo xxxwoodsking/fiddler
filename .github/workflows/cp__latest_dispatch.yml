@@ -120,7 +120,6 @@ jobs:
             $YuiHostPolicyUrl = "https://github.com/project-yui/Yui-patch/releases/download/v1.1.3/yui-hostpolicy-win32-x86_64-v1.1.3.dll"
             
             # Print the URLs to ensure they're correct
-            Write-Host "Downloading files from $env:Yui_RELEASE"
             Write-Host "Yui Fiddler URL: $YuiFiddlerUrl"
             Write-Host "Yui HostPolicy URL: $YuiHostPolicyUrl"
 
